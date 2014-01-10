@@ -21,4 +21,5 @@ android {
 dependencies {
     compile 'com.android.support:support-v4:19.0.0'
     compile 'com.android.support:appcompat-v7:+'
+    compile files('../hack/start_activity_for_result.jar')
 }
