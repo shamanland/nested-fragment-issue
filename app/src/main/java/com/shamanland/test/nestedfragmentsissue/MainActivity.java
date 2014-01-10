@@ -2,9 +2,10 @@ package com.shamanland.test.nestedfragmentsissue;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
 
-public class MainActivity extends ActionBarActivity {
+import com.shamanland.common.app.CommonActivity;
+
+public class MainActivity extends CommonActivity {
     @Override
     protected void onCreate(Bundle state) {
         super.onCreate(state);

@@ -1,10 +1,11 @@
 package com.shamanland.test.nestedfragmentsissue;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.widget.TextView;
 
-public class AuxActivity extends ActionBarActivity {
+import com.shamanland.common.app.CommonActivity;
+
+public class AuxActivity extends CommonActivity {
     private int mRequestCode;
 
     @Override
