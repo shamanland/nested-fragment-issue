@@ -14,7 +14,7 @@ public class MainActivity extends CommonActivity {
         if (state == null) {
             Bundle args1 = new Bundle();
             args1.putInt("background.color", 0xffff6699);
-            args1.putInt("request.code", 999);
+            args1.putInt("request.code", 15);
 
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container_1, Fragment.instantiate(this, TextViewFragment.class.getName(), args1))

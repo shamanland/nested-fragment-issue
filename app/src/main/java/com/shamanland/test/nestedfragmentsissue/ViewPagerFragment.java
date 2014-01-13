@@ -47,14 +47,14 @@ public class ViewPagerFragment extends Fragment {
         @Override
         public Fragment getItem(int i) {
             Bundle args = new Bundle();
-            args.putInt("background.color", COLORS[i]);
-            args.putInt("request.code", i + 101);
+            args.putInt("background.color", COLORS[i % COLORS.length]);
+            args.putInt("request.code", i + 1);
             return Fragment.instantiate(mContext, TextViewFragment.class.getName(), args);
         }
 
         @Override
         public int getCount() {
-            return 3;
+            return 10;
         }
     }
 
